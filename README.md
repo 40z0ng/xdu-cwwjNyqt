@@ -30,27 +30,27 @@ xdu 晨午晚检/疫情通(健康卡) 自动填报
 
 ​			打开 控制面板→管理工具→任务计划程序，
 
-![image-20210827232102811](https://github.com/40z0ng/xdu-cwwjNyqt/blob/main/images-folder/image-20210827232102811.png)
+![image-20210827232102811](https://github.com/40z0ng/xdu-cwwjnyqt/blob/main/images-folder/image-20210827232102811.png)
 
 ​			选择右侧“操作栏”中的“创建任务”，
 
-![image-20210916144631804](https://github.com/40z0ng/xdu-cwwjNyqt/blob/main/images-folder/image-20210916144631804.png)
+![image-20210916144631804](https://github.com/40z0ng/xdu-cwwjnyqt/blob/main/images-folder/image-20210916144631804.png)
 
 ​			在常规选项卡中设置名称，（最好）选择“不管用户是否登录都要运行”，（可勾选“使用最高权限运行”）
 
-![image-20210916145447769](https://github.com/40z0ng/xdu-cwwjNyqt/blob/main/images-folder/image-20210916145447769.png)
+![image-20210916145447769](https://github.com/40z0ng/xdu-cwwjnyqt/blob/main/images-folder/image-20210916145447769.png)
 
 ​			在触发器选项卡中设置想要执行程序的时间，
 
-![image-20210916145946502](https://github.com/40z0ng/xdu-cwwjNyqt/blob/main/images-folder/image-20210916145946502.png)
+![image-20210916145946502](https://github.com/40z0ng/xdu-cwwjnyqt/blob/main/images-folder/image-20210916145946502.png)
 
 ​			在操作选项卡中，“程序或脚本"选择对应的bat脚本，同时设置“起始于”为bat脚本所在的文件夹，
 
-![image-20210916150304695](https://github.com/40z0ng/xdu-cwwjNyqt/blob/main/images-folder/image-20210916150304695.png)
+![image-20210916150304695](https://github.com/40z0ng/xdu-cwwjnyqt/blob/main/images-folder/image-20210916150304695.png)
 
 ​			在设置选项卡，最下方的“如果此任务已经运行...”选项中，选择“并行运行新实例”，（由于默认为不运行新实例，因此不如下图设置可能会导致失败）
 
-![image-20210916151228051](https://github.com/40z0ng/xdu-cwwjNyqt/blob/main/images-folder/image-20210916151228051.png)
+![image-20210916151228051](https://github.com/40z0ng/xdu-cwwjnyqt/blob/main/images-folder/image-20210916151228051.png)
 
 ​			最后点击确定即可。
 
