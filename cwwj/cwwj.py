@@ -36,7 +36,7 @@ def info(userinfo):
         print(f"{userinfo[0]}登录成功")
         UUkey = response.cookies["UUkey"]
         eai_sess = response.cookies["eai-sess"]
-        UqZBpD3n3iPIDwJU = response.cookies["UqZBpD3n3iPIDwJU"]
+        UqZBpD3n3iPIDwJU = response.cookies["UqZBpD3n3iPIDwJU9BKntX+NXbQN-YJCcdeKvoWd5Q+X"]
         cookie = {'Cookie':f'UqZBpD3n3iPIDwJU={UqZBpD3n3iPIDwJU}; eai-sess={eai_sess}; UUkey={UUkey}'}
     else:
         print(f"{userinfo[0]}登陆失败,{response.json()['m']}")
